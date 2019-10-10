@@ -1,11 +1,11 @@
 {
-    "name": "Carlo/redis-limiter",
+    "name": "carlo/redis-limiter",
     "description": "基于Redis的限流器",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Carlo",
+            "name": "carlo",
             "email": "284474102@qq.com"
         }
     ],
