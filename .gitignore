@@ -1,0 +1,68 @@
+
+
+# 本文件是防止上传git配置文件
+# Windows映像文件缓存
+Thumbs.db
+ehthumbs.db
+
+# 文件夹配置文件
+Desktop.ini
+
+# 用于文件共享的回收站
+$RECYCLE.BIN/
+
+# Windows 安装 文件
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows 快捷方式
+*.lnk
+
+# =========================
+# 操作系统文件
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 缩略图
+._*
+
+#可能出现在卷根目录中的文件
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.git
+.svn
+# 可能在远程AFP共享上创建的目录
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# IDE
+/nbproject/
+.idea/
+
+# 环境文件
+.uini
+ErrorFiles
+u.php
+logs
+# 缓存文件夹
+update/
+application/logs/
+
+# 作曲家文件
+/vendor/
+/composer.lock

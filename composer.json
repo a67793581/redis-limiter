@@ -1,0 +1,26 @@
+{
+    "name": "Carlo/redis-limiter",
+    "description": "基于Redis的限流器",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlo",
+            "email": "284474102@qq.com"
+        }
+    ],
+    "keywords": [
+        "redis",
+        "limiter",
+        "限流器"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-redis":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carlo\\Limiter\\": "./src"
+        }
+    }
+}
